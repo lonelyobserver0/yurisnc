@@ -40,9 +40,13 @@
         }
     },
     "widgets": [
+        "buttons-grid",
+        "mpris",
+        "volume",
+        "backlight",
+        "dnd",
         "title",
-        "notifications",
-        "dnd"
+        "notifications"
     ],
     "widget-config": {
         "mpris": {

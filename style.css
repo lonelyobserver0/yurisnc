@@ -3,13 +3,13 @@
   font-family: "Adwaita Sans";
   font-size: 18px;
   text-shadow: none;
-  color: #c2c4c8;
+  color: #c3c3c4;
   background-color: transparent;
   background: transparent;
 }
 
 .control-center {
-  background-color: rgba(13, 21, 38, 0.8);
+  background-color: rgba(16, 15, 22, 0.8);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.65);
   padding: 5px;
 }
@@ -20,7 +20,7 @@
 }
 
 .notification {
-  background-color: rgba(13, 21, 38, 0.8);
+  background-color: rgba(16, 15, 22, 0.8);
 }
 
 .notification > *:last-child > * {
@@ -54,23 +54,23 @@
 }
 
 .notification.critical {
-  background-color: rgba(89, 116, 139, 0.5);
+  background-color: rgba(176, 59, 69, 0.5);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.65);
 }
 
 .notification.low,
 .notification.normal {
-  background-color: rgba(13, 21, 38, 0.5);
+  background-color: rgba(16, 15, 22, 0.5);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.65);
 }
 
 .close-button {
-  background-color: rgba(194, 196, 200, 0.8);
+  background-color: rgba(195, 195, 196, 0.8);
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.35);
 }
 
 .close-button:hover {
-  background-color: rgba(89, 116, 139, 0.8);
+  background-color: rgba(176, 59, 69, 0.8);
 }
 
 .notification-group-header,
@@ -81,34 +81,34 @@
 .notification-group-collapse-button,
 .notification-group-close-all-button {
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.35);
-  background-color: #c2c4c8;
+  background-color: #c3c3c4;
 }
 
 .notification-group-collapse-button:hover {
-  background-color: rgba(54, 161, 204, 0.8);
+  background-color: rgba(224, 159, 95, 0.8);
 }
 
 .notification-group-close-all-button:hover {
-  background-color: rgba(89, 116, 139, 0.8);
+  background-color: rgba(176, 59, 69, 0.8);
 }
 
 trough highlight {
-  background: #36A1CC;
+  background: #E09F5F;
 }
 
 scale trough {
   margin: 0rem 1rem;
-  background-color: #c2c4c8;
+  background-color: #c3c3c4;
   min-height: 8px;
   min-width: 70px;
 }
 
 slider {
-  background-color: #c2c4c8;
+  background-color: #c3c3c4;
 }
 
 tooltip {
-  background-color: #c2c4c8;
+  background-color: #c3c3c4;
 }
 
 /*** Widgets ***/
@@ -120,8 +120,8 @@ tooltip {
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
-  background: #36A1CC;
-  box-shadow: 0px 0px 10px rgba(13, 21, 38, 0.8);
+  background: #E09F5F;
+  box-shadow: 0px 0px 10px rgba(16, 15, 22, 0.8);
   border-radius: 12px;
   min-width: 60px;
   min-height: 30px;
@@ -131,15 +131,15 @@ tooltip {
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {
-  background: #36A1CC;
+  background: #E09F5F;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked {
-  background: #4C58AE;
+  background: #A05763;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button.toggle:checked:hover {
-  background: rgba(54, 161, 204, 0.8);
+  background: rgba(224, 159, 95, 0.8);
 }
 
 /* Mpris widget */
@@ -171,7 +171,7 @@ tooltip {
 }
 
 .widget-mpris > box > button:hover {
-  background: rgba(54, 161, 204, 0.6);
+  background: rgba(224, 159, 95, 0.6);
 }
 
 /* Volume widget */
@@ -207,18 +207,18 @@ tooltip {
 .widget-dnd > switch {
   font-size: initial;
   border-radius: 100px;
-  background: #659098;
+  background: #DD5E69;
   border: none;
   box-shadow: none;
   padding: 3px;
 }
 
 .widget-dnd > switch:checked {
-  background: #4C58AE;
+  background: #A05763;
 }
 
 .widget-dnd > switch slider {
-  background: #0D1526;
+  background: #100f16;
   border-radius: 12px;
   min-width: 18px;
   min-height: 18px;
@@ -240,7 +240,7 @@ tooltip {
   padding: unset;
   margin: unset;
   text-shadow: none;
-  background: #59748B;
+  background: #B03B45;
   border: none;
   box-shadow: none;
   border-radius: 100px;
@@ -249,7 +249,7 @@ tooltip {
 }
 
 .widget-title > button:hover {
-  background: rgba(89, 116, 139, 0.8);
+  background: rgba(176, 59, 69, 0.8);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.65);
 }
 
